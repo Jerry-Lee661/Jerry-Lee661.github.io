@@ -66,10 +66,10 @@ footer a{color:var(--accent-dark);text-decoration:none;font-weight:600}
     <h1>Jerry-Lee661</h1>
     <div class="tag" data-en="AI Engineer · LLM serving, evaluation, and local inference"
          data-zh-hans="AI 工程师 · 大模型推理服务、模型评测与本地部署"
-         data-zh-hant="AI 工程師 · 大模型推理服務、模型評測與本地部署">AI Engineer · LLM serving, evaluation, and local inference</div>
+         data-zh-hant="AI 工程師 · LLM 推理服務、模型評估與本地部署">AI Engineer · LLM serving, evaluation, and local inference</div>
     <div class="sum" data-en="I run an online AI learning demo on hardware I built, published a fine-tuned decision model on Hugging Face, and maintain an open-source toolchain for coding agents."
          data-zh-hans="自己装机、自己部署:一个在线 AI 学习 demo,一个开源的微调模型,外加一套给编程 agent 用的工具链。"
-         data-zh-hant="自己裝機、自己部署:一個線上 AI 學習 demo,一個開源的微調模型,外加一套給編程 agent 用的工具鏈。">I run an online AI learning demo on hardware I built, published a fine-tuned decision model on Hugging Face, and maintain an open-source toolchain for coding agents.</div>
+         data-zh-hant="自行組裝、自行部署：一個線上 AI 學習 demo，一個開源的微調模型，外加一套給編程 agent 用的工具鏈。">I run an online AI learning demo on hardware I built, published a fine-tuned decision model on Hugging Face, and maintain an open-source toolchain for coding agents.</div>
   </div>
 </header>
 
@@ -87,40 +87,40 @@ footer a{color:var(--accent-dark);text-decoration:none;font-weight:600}
   <div class="cards">
 
     <div class="card">
-      <h3>EduBot · <span data-en="online AI learning demo" data-zh-hans="在线 AI 学习 demo" data-zh-hant="在線 AI 學習 demo">online AI learning demo</span></h3>
+      <h3>EduBot · <span data-en="online AI learning demo" data-zh-hans="在线 AI 学习 demo" data-zh-hant="線上 AI 學習 demo">online AI learning demo</span></h3>
       <div class="meta">FastAPI · Docker · Cloudflare Tunnel · local models only</div>
       <div class="lead" data-en="A learning tool for Python beginners. The question behind it: can small local models handle chat, quizzes, encouragement, and sandboxed code with no cloud API?"
            data-zh-hans="给 Python 初学者做的学习工具。想验证的就一件事:不接云端 API,小模型能不能把答疑、小测、鼓励、沙箱执行全扛下来。"
-           data-zh-hant="給 Python 初學者而設的學習工具。想驗證的就一件事:不接雲端 API,小模型能否把答疑、小測、鼓勵、沙箱執行全部扛起來。">A learning tool for Python beginners. The question behind it: can small local models handle chat, quizzes, encouragement, and sandboxed code with no cloud API?</div>
+           data-zh-hant="給 Python 初學者而設的學習工具。想驗證的只有一件事：不接雲端 API，小模型能否把答疑、小測、鼓勵、沙箱執行全部扛起來。">A learning tool for Python beginners. The question behind it: can small local models handle chat, quizzes, encouragement, and sandboxed code with no cloud API?</div>
       <ul>
-        <li data-en="Moved orchestration from n8n to FastAPI: memory went from ~512MB to ~80MB, cold start under a second" data-zh-hans="编排层从 n8n 换成 FastAPI:内存从约 512MB 降到约 80MB,冷启动不到一秒" data-zh-hant="編排層由 n8n 換成 FastAPI:記憶體由約 512MB 降至約 80MB,冷啟動少於一秒">Moved orchestration from n8n to FastAPI: memory went from ~512MB to ~80MB, cold start under a second</li>
-        <li data-en="Three-layer gate (rules, fine-tuned model, keyword fallback) filters each message; a router then picks 0.8B, 4B, or 9B by difficulty" data-zh-hans="门控分三层(规则、微调模型、关键词兜底)判断消息受不受理,受理后再按难度分给 0.8B / 4B / 9B 本地模型" data-zh-hant="門控分三層(規則、微調模型、關鍵詞兜底)判斷訊息是否受理,受理後再按難度分給 0.8B / 4B / 9B 本地模型">Three-layer gate (rules, fine-tuned model, keyword fallback) filters each message; a router then picks 0.8B, 4B, or 9B by difficulty</li>
-        <li data-en="Live behind TLS and access control as a demo; no formal users yet" data-zh-hans="已经上线,有 TLS 和访问控制,目前是演示版,还没有正式用户" data-zh-hant="已經上線,有 TLS 及存取控制,目前是示範版,還沒有正式用戶">Live behind TLS and access control as a demo; no formal users yet</li>
+        <li data-en="Moved orchestration from n8n to FastAPI: memory went from ~512MB to ~80MB, cold start under a second" data-zh-hans="编排层从 n8n 换成 FastAPI:内存从约 512MB 降到约 80MB,冷启动不到一秒" data-zh-hant="編排層由 n8n 換成 FastAPI：記憶體由約 512MB 降至約 80MB，冷啟動少於一秒">Moved orchestration from n8n to FastAPI: memory went from ~512MB to ~80MB, cold start under a second</li>
+        <li data-en="Three-layer topic gate (fast rules, the fine-tuned model, keyword fallback) filters each message; a router then picks 0.8B, 4B, or 9B by difficulty" data-zh-hans="门控分三层(规则、微调模型、关键词兜底)判断消息受不受理,受理后再按难度分给 0.8B / 4B / 9B 本地模型" data-zh-hant="門控分三層（規則、微調模型、關鍵詞後備）判斷訊息是否受理，受理後再按難度分給 0.8B / 4B / 9B 本地模型">Three-layer topic gate (fast rules, the fine-tuned model, keyword fallback) filters each message; a router then picks 0.8B, 4B, or 9B by difficulty</li>
+        <li data-en="Live behind TLS and access control as a demo; no formal users yet" data-zh-hans="已经上线,有 TLS 和访问控制,目前是演示版,还没有正式用户" data-zh-hant="已經上線，設有 TLS 及存取控制，目前是示範版，還沒有正式用戶">Live behind TLS and access control as a demo; no formal users yet</li>
       </ul>
-      <p style="margin-top:10px"><a href="https://chat.liziyi.site" target="_blank" rel="noopener">chat.liziyi.site</a> <span data-en="(demo access on request)" data-zh-hans="(演示账号可申请)" data-zh-hant="(示範帳戶可申請)">(demo access on request)</span></p>
+      <p style="margin-top:10px"><a href="https://chat.liziyi.site" target="_blank" rel="noopener">chat.liziyi.site</a> <span data-en="(demo access on request)" data-zh-hans="(演示账号可申请)" data-zh-hant="（示範帳戶可申請）">(demo access on request)</span></p>
     </div>
 
     <div class="card">
-      <h3>QJev 3.5-0.8B · <span data-en="fine-tuned decision engine (Apache-2.0)" data-zh-hans="微调决策引擎(Apache-2.0)" data-zh-hant="微調決策引擎(Apache-2.0)">fine-tuned decision engine (Apache-2.0)</span></h3>
+      <h3>QJev 3.5-0.8B · <span data-en="fine-tuned decision engine (Apache-2.0)" data-zh-hans="微调决策引擎(Apache-2.0)" data-zh-hant="微調決策引擎（Apache-2.0）">fine-tuned decision engine (Apache-2.0)</span></h3>
       <div class="meta">Hugging Face · released with training and evaluation sets</div>
-      <div class="lead" data-en="94.4% routing accuracy on a 180-item set; the prompt-only baseline scores 27.2%."
-           data-zh-hans="180 道题的评测集上,路由准确率 94.4%,prompt 基线只有 27.2%。"
-           data-zh-hant="180 題的評測集上,路由準確率 94.4%,prompt 基線僅 27.2%。">94.4% routing accuracy on a 180-item set; the prompt-only baseline scores 27.2%.</div>
+      <div class="lead" data-en="94.4% routing accuracy on a 180-item set (prompt baseline 27.2%, official same-set 91.7%)."
+           data-zh-hans="180 道题的评测集上,路由准确率 94.4%(prompt 基线 27.2%,官方同题 91.7%)。"
+           data-zh-hant="180 題的評估集上，路由準確率 94.4%（prompt 基準 27.2%，官方同題 91.7%）。">94.4% routing accuracy on a 180-item set (prompt baseline 27.2%, official same-set 91.7%).</div>
       <ul>
-        <li data-en="A new gate model that grew out of EduBot's needs: reads a state, a question, and the options, then returns a probability for each option in one forward pass. Live in the EduBot gate since 2026-11-01 with primary/backup failover; released with its training and evaluation sets" data-zh-hans="新一代门控模型,从 EduBot 的门控需求里长出来:读状态、问题和选项,一次前向就给出每个选项的概率;2026-11-01 起在 EduBot 的生产链上线(主备 failover),模型和训练、评测集一起开源" data-zh-hant="新一代門控模型,由 EduBot 的門控需求發展而來:讀取狀態、問題及選項,一次前向傳播即給出各選項的概率;2026-11-01 起在 EduBot 的生產鏈上線(主備 failover),模型及訓練、評測集一併開源">A new gate model that grew out of EduBot's needs: reads a state, a question, and the options, then returns a probability for each option in one forward pass. Live in the EduBot gate since 2026-11-01 with primary/backup failover; released with its training and evaluation sets</li>
-        <li data-en="Calibration error (ECE) fell from 0.40-0.47 to 0.034" data-zh-hans="校准误差(ECE)从 0.40-0.47 降到 0.034" data-zh-hant="校準誤差(ECE)由 0.40-0.47 降至 0.034">Calibration error (ECE) fell from 0.40-0.47 to 0.034</li>
+        <li data-en="A next-generation gate model that grew out of EduBot's needs: reads a state, a question, and the options, then returns a probability for each option in one forward pass. Live in the EduBot gate since 2026-11-01 with primary/backup failover; released with its training and evaluation sets" data-zh-hans="新一代门控模型,从 EduBot 的门控需求里长出来:读状态、问题和选项,一次前向就给出每个选项的概率;2026-11-01 起在 EduBot 的生产环境上线(主备 failover),模型和训练、评测集一起开源" data-zh-hant="新一代門控模型，由 EduBot 的門控需求發展而來：讀取狀態、問題及選項，一次前向傳播即給出各選項的概率；2026-11-01 起在 EduBot 的正式環境上線（主備容錯切換），模型及訓練、評估集一併開源">A next-generation gate model that grew out of EduBot's needs: reads a state, a question, and the options, then returns a probability for each option in one forward pass. Live in the EduBot gate since 2026-11-01 with primary/backup failover; released with its training and evaluation sets</li>
+        <li data-en="Calibration error (ECE) fell from 0.40-0.47 to 0.034" data-zh-hans="校准误差(ECE)从 0.40-0.47 降到 0.034" data-zh-hant="校準誤差（ECE）由 0.40-0.47 降至 0.034">Calibration error (ECE) fell from 0.40-0.47 to 0.034</li>
       </ul>
       <p style="margin-top:10px"><a href="https://huggingface.co/ZY-Lee4/QJev3.5-0.8B-GGUF" target="_blank" rel="noopener">huggingface.co/ZY-Lee4/QJev3.5-0.8B-GGUF</a></p>
     </div>
 
     <div class="card">
-      <h3>llama-guild · <span data-en="open-source coding-agent toolchain (MIT)" data-zh-hans="开源 AI 编程工具链(MIT)" data-zh-hant="開源 AI 編程工具鏈(MIT)">open-source coding-agent toolchain (MIT)</span></h3>
+      <h3>llama-guild · <span data-en="open-source coding-agent toolchain (MIT)" data-zh-hans="开源 AI 编程工具链(MIT)" data-zh-hant="開源 AI 編程工具鏈（MIT）">open-source coding-agent toolchain (MIT)</span></h3>
       <div class="meta">25 MCP tools · 6 skills · integrates 8 agent hosts</div>
-      <div class="lead" data-en="Whatever code a local model can write, no cloud model gets paid to write."
-           data-zh-hans="一条写死在工具里的规矩:本地模型写得动的代码,就不付云端 token 的钱。"
-           data-zh-hant="一條寫死在工具內的規矩:本地模型應付得到的程式碼,就不付雲端 token 的錢。">Whatever code a local model can write, no cloud model gets paid to write.</div>
+      <div class="lead" data-en="Cuts a coding agent's token cost by an order of magnitude: the cloud model writes the contract and accepts the result, with acceptance enforced by tooling; local 27–35B models do the coding."
+           data-zh-hans="把编码 agent 的 token 成本砍掉一个数量级:云端模型只写任务契约、做最终验收,验收由工具强制执行;写代码交给本地 27–35B 模型。"
+           data-zh-hant="把編程 agent 的 token 成本削減一個數量級：雲端模型只寫任務契約、做最終驗收，驗收由工具強制執行；寫程式碼交給本地 27–35B 模型。">Cuts a coding agent's token cost by an order of magnitude: the cloud model writes the contract and accepts the result, with acceptance enforced by tooling; local 27–35B models do the coding.</div>
       <ul>
-        <li data-en="Half experiment, half toolbox: 25 MCP tools, 6 skills, and a benchmark suite share one repo because each was built to serve the others. The idea matters more than the polish." data-zh-hans="说实话是个半试验、半玩具的项目:25 个 MCP 工具、6 个 skill、一套基准放在同一个仓库里,因为它们本来就是互相配套长出来的;思路是重点,完成度可以往后放。" data-zh-hant="老實說是個半試驗、半玩具的項目:25 個 MCP 工具、6 個 skill、一套基準放在同一個倉庫裡,因為它們本來就是互相配套長出來的;思路是重點,完成度可以往後放。">Half experiment, half toolbox: 25 MCP tools, 6 skills, and a benchmark suite share one repo because each was built to serve the others. The idea matters more than the polish.</li>
+        <li data-en="Half experiment, half toolbox: 25 MCP tools, 6 skills, and a benchmark suite share one repo because each was built to serve the others. The idea matters more than the polish." data-zh-hans="说实话是个半试验、半玩具的项目:25 个 MCP 工具、6 个 skill、一套基准放在同一个仓库里,因为它们本来就是互相配套长出来的;思路是重点,完成度可以往后放。" data-zh-hant="老實說是個半試驗、半玩具的項目：25 個 MCP 工具、6 個 skill、一套基準放在同一個程式碼庫裡，因為它們本來就是互相配套長出來的；思路是重點，完成度可以往後放。">Half experiment, half toolbox: 25 MCP tools, 6 skills, and a benchmark suite share one repo because each was built to serve the others. The idea matters more than the polish.</li>
       </ul>
       <p style="margin-top:10px"><a href="https://github.com/Jerry-Lee661/llama-guild" target="_blank" rel="noopener">github.com/Jerry-Lee661/llama-guild</a></p>
     </div>
@@ -133,14 +133,14 @@ footer a{color:var(--accent-dark);text-decoration:none;font-weight:600}
   <div class="cards">
 
     <div class="card minor">
-      <h3>Ninfer · <span data-en="ternary engine ports: RTX 30 (sm_86) and AMD ROCm (gfx1100)" data-zh-hans="三元引擎移植:RTX 30(sm_86)与 AMD ROCm(gfx1100)" data-zh-hant="三元引擎移植:RTX 30(sm_86)及 AMD ROCm(gfx1100)">ternary engine ports: RTX 30 (sm_86) and AMD ROCm (gfx1100)</span></h3>
-      <div class="meta"><span data-en="personal projects, open source" data-zh-hans="个人项目,已开源" data-zh-hant="個人項目,已開源">personal projects, open source</span> · upstream engine: ninfer-all</div>
+      <h3>Ninfer · <span data-en="ternary engine ports: RTX 30 (sm_86) and AMD ROCm (gfx1100)" data-zh-hans="三元引擎移植:RTX 30(sm_86)与 AMD ROCm(gfx1100)" data-zh-hant="三元引擎移植：RTX 30（sm_86）及 AMD ROCm（gfx1100）">ternary engine ports: RTX 30 (sm_86) and AMD ROCm (gfx1100)</span></h3>
+      <div class="meta"><span data-en="personal projects, open source" data-zh-hans="个人项目,已开源" data-zh-hant="個人項目，已開源">personal projects, open source</span> · upstream engine: ninfer-all</div>
       <div class="lead" data-en="Both ports started from one question: can a 27B ternary model run on a 12GB consumer card, and how fast?"
            data-zh-hans="两个移植只为弄明白一件事:27B 的三元模型能不能塞进 12GB 的消费级显卡,还能跑多快?"
-           data-zh-hant="兩個移植只為弄明白一件事:27B 的三元模型能否塞進 12GB 的消費級顯示卡,還可以跑多快?">Both ports started from one question: can a 27B ternary model run on a 12GB consumer card, and how fast?</div>
+           data-zh-hant="兩個移植只為弄明白一件事：27B 的三元模型能否塞進 12GB 的消費級顯示卡，還可以跑多快？">Both ports started from one question: can a 27B ternary model run on a 12GB consumer card, and how fast?</div>
       <ul>
-        <li data-en="RTX 30 port: after fixing a parsing bug that left every flag but the first dead, speculative decoding went from 1.00 to 4.85 tokens per round and English decoding from 73.8 to 198.8 t/s" data-zh-hans="RTX 30 移植:修掉一个只有第一个旗标生效的解析 bug 后,投机解码从每轮 1.00 涨到 4.85 个 token,英文解码从 73.8 涨到 198.8 t/s" data-zh-hant="RTX 30 移植:修掉一個只有第一個旗標生效的解析 bug 後,投機解碼由每輪 1.00 升至 4.85 個 token,英文解碼由 73.8 升至 198.8 t/s">RTX 30 port: after fixing a parsing bug that left every flag but the first dead, speculative decoding went from 1.00 to 4.85 tokens per round and English decoding from 73.8 to 198.8 t/s</li>
-        <li data-en="ROCm port (research, now frozen): a HIP shim brings the engine to an RX 7900 XTX; hipGraph decoding reaches 45.8 t/s" data-zh-hans="ROCm 移植(研究性质,现已冻结):靠一层 HIP 垫片把引擎搬上 RX 7900 XTX,hipGraph 解码 45.8 t/s" data-zh-hant="ROCm 移植(研究性質,現已凍結):靠一層 HIP 墊片將引擎搬上 RX 7900 XTX,hipGraph 解碼 45.8 t/s">ROCm port (research, now frozen): a HIP shim brings the engine to an RX 7900 XTX; hipGraph decoding reaches 45.8 t/s</li>
+        <li data-en="RTX 30 port: after fixing a parsing bug that had silently disabled 60+ flags (including --spec), speculative decoding went from 1.00 to 4.85 tokens per round and English decoding from 73.8 to 198.8 t/s" data-zh-hans="RTX 30 移植:修掉一个让 60 多个旗标(包括 --spec)静默失效的解析 bug 后,投机解码从每轮 1.00 涨到 4.85 个 token,英文解码从 73.8 涨到 198.8 t/s" data-zh-hant="RTX 30 移植：修掉一個令 60 多個旗標（包括 --spec）靜默失效的解析 bug 後，投機解碼由每輪 1.00 升至 4.85 個 token，英文解碼由 73.8 升至 198.8 t/s">RTX 30 port: after fixing a parsing bug that had silently disabled 60+ flags (including --spec), speculative decoding went from 1.00 to 4.85 tokens per round and English decoding from 73.8 to 198.8 t/s</li>
+        <li data-en="ROCm port (research, now frozen): a HIP shim brings the engine to an RX 7900 XTX; hipGraph decoding reaches 45.8 t/s" data-zh-hans="ROCm 移植(研究性质,现已冻结):靠一层 HIP 垫片把引擎搬上 RX 7900 XTX,hipGraph 解码 45.8 t/s" data-zh-hant="ROCm 移植（研究性質，現已凍結）：靠一層 HIP 墊片將引擎搬上 RX 7900 XTX，hipGraph 解碼 45.8 t/s">ROCm port (research, now frozen): a HIP shim brings the engine to an RX 7900 XTX; hipGraph decoding reaches 45.8 t/s</li>
       </ul>
       <p style="margin-top:10px"><a href="https://github.com/Jerry-Lee661/Ninfer-Bonsai-RTX30-sm_86" target="_blank" rel="noopener">github.com/Jerry-Lee661/Ninfer-Bonsai-RTX30-sm_86</a><br>
       <a href="https://github.com/Jerry-Lee661/NInfer-AMD-ROCm" target="_blank" rel="noopener">github.com/Jerry-Lee661/NInfer-AMD-ROCm</a></p>
@@ -148,15 +148,15 @@ footer a{color:var(--accent-dark);text-decoration:none;font-weight:600}
 
     <div class="card minor">
       <h3>SEHS4510 · <span data-en="touch-first data-science learning tool" data-zh-hans="触控优先的数据科学学习工具" data-zh-hant="觸控優先的數據科學學習工具">touch-first data-science learning tool</span></h3>
-      <div class="meta" data-en="final-year project · Blockly · FastAPI · Docker" data-zh-hans="毕业设计 · Blockly · FastAPI · Docker" data-zh-hant="畢業專題(SEHS4510)· Blockly · FastAPI · Docker">final-year project · Blockly · FastAPI · Docker</div>
+      <div class="meta" data-en="final-year project · Blockly · FastAPI · Docker" data-zh-hans="毕业设计 · Blockly · FastAPI · Docker" data-zh-hant="畢業項目（SEHS4510）· Blockly · FastAPI · Docker">final-year project · Blockly · FastAPI · Docker</div>
       <div class="lead" data-en="Block-based data-science tools are built for a mouse and work poorly on tablets; this final-year project rebuilt the interaction for touch."
            data-zh-hans="积木式数据科学工具都是按鼠标设计的,到了平板上就不好用;这个毕业设计把交互按触控重新做了一遍。"
-           data-zh-hant="積木式數據科學工具都是按滑鼠設計的,到了平板上就不好用;這個畢業專題把互動按觸控重新做了一遍。">Block-based data-science tools are built for a mouse and work poorly on tablets; this final-year project rebuilt the interaction for touch.</div>
+           data-zh-hant="積木式數據科學工具都是以滑鼠操作為前提設計的，到了平板上就不好用；這個畢業項目把互動方式按觸控重新設計了一遍。">Block-based data-science tools are built for a mouse and work poorly on tablets; this final-year project rebuilt the interaction for touch.</div>
       <ul>
-        <li data-en="Within-subjects pilot: three participants (all from IT backgrounds, a deviation from the planned non-IT audience, recorded in the report) finished tasks faster on the prototype and said it was easier to start with; the findings became six design guidelines" data-zh-hans="对照试点:3 名被试(都有 IT 背景,原本想找非 IT 初学者,偏离在报告里写明了)用原型完成任务更快,也都说更容易上手;最后总结出六条设计指南" data-zh-hant="對照試點:3 名被試(都有 IT 背景,原本想找非 IT 初學者,偏離在報告裡寫明了)用原型完成任務更快,也都說更容易上手;最後總結出六條設計指南">Within-subjects pilot: three participants (all from IT backgrounds, a deviation from the planned non-IT audience, recorded in the report) finished tasks faster on the prototype and said it was easier to start with; the findings became six design guidelines</li>
-        <li data-en="Its sandboxed execution service later went through a security audit. All 16 findings were fixed (import allowlist, fail-closed auth, rate limiting), each with a regression test." data-zh-hans="后来给沙箱执行服务做了一轮安全审计,16 个问题全部修掉:导入改成白名单、没配密钥就直接拒服务、加了限流,每个修复都带回归测试" data-zh-hant="後來為沙箱執行服務進行了一輪安全審計,16 個問題全數修復:匯入改為白名單、未配置密鑰即拒絕服務、加上限流,每項修復均附回歸測試">Its sandboxed execution service later went through a security audit. All 16 findings were fixed (import allowlist, fail-closed auth, rate limiting), each with a regression test.</li>
+        <li data-en="Within-subjects pilot: three participants (all from IT backgrounds, a deviation from the planned non-IT audience, recorded in the report) finished tasks faster on the prototype and said it was easier to start with; the findings became six design guidelines" data-zh-hans="对照试点:3 名被试(都有 IT 背景,原本想找非 IT 初学者,偏离在报告里写明了)用原型完成任务更快,也都说更容易上手;最后总结出六条设计指南" data-zh-hant="組內對照測試：3 名參與者（都有 IT 背景，原本想找非 IT 初學者，偏離在報告裡寫明了）用原型完成任務更快，也都說更容易上手；最後總結出六條設計指南">Within-subjects pilot: three participants (all from IT backgrounds, a deviation from the planned non-IT audience, recorded in the report) finished tasks faster on the prototype and said it was easier to start with; the findings became six design guidelines</li>
+        <li data-en="Its sandboxed execution service later went through a security audit. All 16 findings were fixed (import allowlist, fail-closed token auth, per-IP rate limiting), each with a regression test." data-zh-hans="后来给沙箱执行服务做了一轮安全审计,16 个问题全部修掉:导入改成白名单、令牌鉴权失败即拒服务、按 IP 限流,每个修复都带回归测试" data-zh-hant="後來為沙箱執行服務進行了一輪安全審計，16 個問題全數修復：匯入改為白名單、權杖驗證失敗即拒絕、按 IP 速率限制，每項修復均附回歸測試">Its sandboxed execution service later went through a security audit. All 16 findings were fixed (import allowlist, fail-closed token auth, per-IP rate limiting), each with a regression test.</li>
       </ul>
-      <p style="margin-top:10px"><a href="https://is.liziyi.site" target="_blank" rel="noopener">is.liziyi.site</a> <span data-en="(demo access on request)" data-zh-hans="(演示账号可申请)" data-zh-hant="(示範帳戶可申請)">(demo access on request)</span></p>
+      <p style="margin-top:10px"><a href="https://is.liziyi.site" target="_blank" rel="noopener">is.liziyi.site</a> <span data-en="(demo access on request)" data-zh-hans="(演示账号可申请)" data-zh-hant="（示範帳戶可申請）">(demo access on request)</span></p>
     </div>
 
   </div>
@@ -179,7 +179,7 @@ footer a{color:var(--accent-dark);text-decoration:none;font-weight:600}
 </main>
 
 <footer><div class="wrap">
-  <span data-en="Contact:" data-zh-hans="联系:" data-zh-hant="聯絡:">Contact:</span>
+  <span data-en="Contact:" data-zh-hans="联系:" data-zh-hant="聯絡：">Contact:</span>
   <a href="https://github.com/Jerry-Lee661" target="_blank" rel="noopener">github.com/Jerry-Lee661</a>
 </div></footer>
 
